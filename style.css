@@ -1,0 +1,80 @@
+button {
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+#randButton {
+    height: 35px;
+    width: 170px;
+    text-align: center;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+    vertical-align: middle
+}
+
+.container{
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 55%;
+    padding: 10px 0;
+    font-family: 'Tahoma',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+}
+
+.text{
+    vertical-align: middle;
+    padding-bottom: 16px;
+}
+
+.wrapper{
+    width: 100%;
+    text-align: center;
+}
+
+input[type="range"]{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+input[type="text"]{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+#output{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px 10px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    border-style: solid;
+    border-color: #d4af37;
+    border-radius: 5px;
+    color: black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 98%;
+    color: #ffffff;
+}
